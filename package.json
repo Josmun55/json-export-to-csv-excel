@@ -1,5 +1,5 @@
 {
-  "name": "export-from-json",
+  "name": "@josmun55/json-export-to-csv-excel",
   "version": "1.7.4",
   "description": "Export to txt, json, csv, xls, xml format file from valid JavaScript JSON object.",
   "keywords": [
@@ -14,7 +14,10 @@
   "main": "dist/umd/index.js",
   "module": "dist/esm/index.js",
   "typings": "dist/types/index.d.ts",
-  "repository": "https://github.com/zheeeng/export-from-json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Josmun55/json-export-to-csv-excel.git"
+  },
   "author": "Zheeeng",
   "license": "MIT",
   "scripts": {
@@ -80,5 +83,12 @@
       "js",
       "ts"
     ]
+  },
+  "bugs": {
+    "url": "https://github.com/zheeeng/export-from-json/issues"
+  },
+  "homepage": "https://github.com/Josmun55/json-export-to-csv-excel#readme",
+  "directories": {
+    "example": "example"
   }
 }
