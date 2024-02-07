@@ -9,28 +9,23 @@ Export to plain text, css, html, json, csv, xls, xml files from JSON.
 [![language](https://img.shields.io/badge/%3C%2F%3E-TypeScript-blue.svg)](http://typescriptlang.org/)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/zheeeng/export-from-json/blob/main/LICENSE)
 [![Build Status](https://travis-ci.org/zheeeng/export-from-json.svg?branch=main)](https://travis-ci.org/zheeeng/export-from-json)
-[![npm version](https://img.shields.io/npm/v/export-from-json.svg)](https://www.npmjs.com/package/export-from-json)
+[![npm version](https://img.shields.io/npm/v/export-from-json.svg)](https://www.npmjs.com/package/@josmun55/json-export-to-csv-excel)
 [![npm bundle size (minified + gzip)](https://img.shields.io/bundlephobia/minzip/export-from-json.svg)](https://unpkg.com/export-from-json/dist/umd/index.min.js)
-[![NPM](https://nodei.co/npm/export-from-json.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/export-from-json/)
+[![NPM](https://nodeico.herokuapp.com/@josmun55/json-export-to-csv-excel.svg)](https://npmjs.com/package/@josmun55/json-export-to-csv-excel)
 
 </div>
 
 ## Installation
 
-```sh
-yarn add export-from-json
-```
+#### This is a scoped fork of the [Official package](https://github.com/zheeeng/export-from-json)
 
+```sh
+npm i --save @josmun55/json-export-to-csv-excel
+```
 or
 
 ```sh
-npm i --save export-from-json
-```
-
-or
-
-```sh
-pnpm i --save export-from-json
+yarn add @josmun55/json-export-to-csv-excel
 ```
 
 ## Usage
@@ -42,7 +37,7 @@ pnpm i --save export-from-json
 ### In module system
 
 ```javascript
-import exportFromJSON from 'export-from-json'
+import exportFromJSON from "@josmun55/json-export-to-csv-excel";
 
 const data = [{ foo: 'foo'}, { bar: 'bar' }]
 const fileName = 'download'
