@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: '20.x'
           registry-url: https://registry.npmjs.org/
-      - run: npm ci
+      - run: pnpm install
       - name: Author identity
         run: git config --global user.email "josmunmungai@gmail.com" && git config --global user.name "Joseph Mungai"
       - name: Package publish
